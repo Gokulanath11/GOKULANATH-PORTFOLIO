@@ -290,16 +290,15 @@ export default function Page() {
               </div>
             </h1>
             <p className="hero-desc">
-              Software developer specializing in computer vision and
-              human-computer interaction — real-time face recognition,
-              gesture control, and assistive tech that gives people without
-              conventional mobility a way to communicate.
+              Software developer and published patent co-inventor specializing in
+              computer vision and human-computer interaction — real-time face
+              recognition, gesture control, and multimodal assistive tech that
+              empowers students and patients with motor impairments.
             </p>
             <div className="hero-actions">
               <a href="#projects" className="btn-primary">
                 View Projects →
               </a>
-              {/* Drop your final resume PDF at /public/resume.pdf after deploying */}
               <a href="/resume.pdf" download className="btn-ghost">
                 ↓ Download Résumé
               </a>
@@ -329,9 +328,9 @@ export default function Page() {
               I&apos;m an <strong>MCA student</strong> at Hindusthan College
               of Arts and Science, but most of what I know came from shipping
               things nobody assigned me — a face recognition system that
-              registers new users without retraining, a mouse you control
-              with hand gestures, a communication tool built from nothing but
-              a webcam and an eye blink.
+              registers new users without retraining, a touchless mouse controlled
+              via hand gestures, and an adaptive multimodal communication tool
+              now officially published as an Indian Patent.
             </p>
             <p>
               My focus is <strong>computer vision and assistive interaction</strong> —
@@ -353,11 +352,11 @@ export default function Page() {
               <div className="stat-label">CGPA — MCA, 2025–Present</div>
             </div>
             <div className="stat">
-              <div className="stat-num" data-count="4">
+              <div className="stat-num" data-count="1">
                 0
               </div>
               <div className="stat-label">
-                CV / assistive-tech projects shipped
+                Published Indian Patent — App No: 202641107831 A
               </div>
             </div>
             <div className="stat">
@@ -365,7 +364,7 @@ export default function Page() {
                 0
               </div>
               <div className="stat-label">
-                Published research paper — CAIT 2026
+                Published Research Paper — CAIT 2026 (HICAS)
               </div>
             </div>
             <div className="stat">
@@ -380,7 +379,7 @@ export default function Page() {
       <section className="academics" id="academics">
         <div className="section-head reveal">
           <div className="section-num">02 / ACADEMICS</div>
-          <div className="section-title">Four stages, one straight line.</div>
+          <div className="section-title">Three stages, one straight line.</div>
         </div>
         <div className="timeline" id="timeline">
           <div className="timeline-track">
@@ -394,7 +393,7 @@ export default function Page() {
               Master of Computer Applications (MCA)
             </div>
             <div className="timeline-school">
-              Hindusthan College of Arts and Science
+              Hindusthan College of Arts and Science, Coimbatore
             </div>
             <div className="timeline-extra">CGPA: 7.9</div>
           </div>
@@ -406,25 +405,16 @@ export default function Page() {
               Bachelor of Computer Applications (BCA)
             </div>
             <div className="timeline-school">
-              Hindusthan College of Arts and Science
+              Hindusthan College of Arts and Science, Coimbatore
             </div>
           </div>
 
           <div className="timeline-item reveal">
             <div className="timeline-node"></div>
             <div className="timeline-period">2021 — 2022</div>
-            <div className="timeline-degree">Higher Secondary (12th)</div>
+            <div className="timeline-degree">Higher Secondary (12th Grade)</div>
             <div className="timeline-school">
-              NM Matriculation Hr. Sec. School
-            </div>
-          </div>
-
-          <div className="timeline-item reveal">
-            <div className="timeline-node"></div>
-            <div className="timeline-period">2019 — 2020</div>
-            <div className="timeline-degree">Secondary School (10th)</div>
-            <div className="timeline-school">
-              Kalaimagal Matriculation Hr. Sec. School
+              NM Matriculation Higher Secondary School
             </div>
           </div>
         </div>
@@ -447,35 +437,39 @@ export default function Page() {
             <div className="pill-row" data-pills="">
               <span className="pill">Python</span>
               <span className="pill">Java</span>
-              <span className="pill">SQL</span>
+              <span className="pill">C++</span>
+              <span className="pill">SQL (MySQL, SQLite)</span>
             </div>
           </div>
           <div className="skill-card" data-card="">
             <span className="corner-tl"></span>
             <span className="corner-br"></span>
             <div className="skill-card-label">
-              <span className="idx">[02]</span> Computer Vision &amp; ML
+              <span className="idx">[02]</span> Computer Vision &amp; AI
             </div>
             <div className="pill-row" data-pills="">
               <span className="pill">OpenCV</span>
               <span className="pill">MediaPipe</span>
               <span className="pill">scikit-learn</span>
-              <span className="pill">Computer Vision</span>
               <span className="pill">Pose Estimation</span>
+              <span className="pill">EAR Algorithm</span>
+              <span className="pill">Facial Recognition</span>
             </div>
           </div>
           <div className="skill-card" data-card="">
             <span className="corner-tl"></span>
             <span className="corner-br"></span>
             <div className="skill-card-label">
-              <span className="idx">[03]</span> Working Style
+              <span className="idx">[03]</span> Web &amp; Developer Tools
             </div>
             <div className="pill-row" data-pills="">
-              <span className="pill">Teamwork</span>
-              <span className="pill">Communication</span>
-              <span className="pill">Problem Solving</span>
-              <span className="pill">Adaptability</span>
-              <span className="pill">Time Management</span>
+              <span className="pill">Flask</span>
+              <span className="pill">React.js</span>
+              <span className="pill">Node.js</span>
+              <span className="pill">RESTful APIs</span>
+              <span className="pill">Telegram Bot API</span>
+              <span className="pill">Docker</span>
+              <span className="pill">Git / GitHub</span>
             </div>
           </div>
         </div>
@@ -486,11 +480,28 @@ export default function Page() {
         <div className="section-head reveal">
           <div className="section-num">04 / PROJECTS</div>
           <div className="section-title">
-            Four systems, one theme: machines that understand people.
+            Key systems: machines that see, interpret, and respond.
           </div>
         </div>
         <div className="project-list">
           <div className="project-card reveal-scale">
+            <div>
+              <span className="featured-badge">PATENTED SYSTEM</span>
+              <div className="project-tag">ASSISTIVE TECH · ACCESSIBILITY</div>
+              <div className="project-title">
+                Adaptive Multimodal Communication &amp; Classroom System{" "}
+                <span className="arrow">→</span>
+              </div>
+              <div className="project-stack">
+                Python · OpenCV · MediaPipe · Eye-Gaze Tracking · Morse Engine
+              </div>
+            </div>
+            <div className="project-desc">
+              Published software-based multimodal system for students with disabilities (Indian Patent App No: 202641107831 A). Features automatic disability profile configuration at login, camera-based hand gesture tracking, eye-gaze navigation, customizable eye-blink Morse code decoding, and real-time classroom participation tools with assessment rest-break monitoring.
+            </div>
+          </div>
+
+          <div className="project-card reveal">
             <div>
               <span className="featured-badge">FEATURED</span>
               <div className="project-tag">FULL-STACK · AI HEALTHCARE</div>
@@ -508,10 +519,7 @@ export default function Page() {
               automatically. Built two independent hands-free communication
               channels (hand-gesture recognition and eye-blink Morse code) so
               patients with limited mobility or speech can actively respond
-              to their care team. A trained model recommends next-session
-              difficulty from patient progress, and a live Telegram bot
-              bridges doctors and caregivers through a secure, role-based
-              monitoring dashboard.
+              to their care team.
             </div>
           </div>
 
@@ -523,7 +531,7 @@ export default function Page() {
                 <span className="arrow">→</span>
               </div>
               <div className="project-stack">
-                Python · OpenCV · Face Recognition
+                Python · OpenCV · Deep Learning Embeddings · SQLite
               </div>
             </div>
             <div className="project-desc">
@@ -542,64 +550,53 @@ export default function Page() {
                 Real-Time Hand Gesture Based Mouse Control{" "}
                 <span className="arrow">→</span>
               </div>
-              <div className="project-stack">Python · OpenCV · MediaPipe</div>
+              <div className="project-stack">
+                Python · OpenCV · MediaPipe · PyAutoGUI
+              </div>
             </div>
             <div className="project-desc">
               A touchless input system that tracks hand landmarks through a
               webcam and maps distinct finger gestures to cursor movement,
               left click, right click, double click, click-and-drag, and
-              window minimize/maximize — enabling fully hands-free computer
+              window controls — enabling fully hands-free computer
               control.
-            </div>
-          </div>
-
-          <div className="project-card reveal">
-            <div>
-              <div className="project-tag">ASSISTIVE TECH</div>
-              <div className="project-title">
-                Eye Blink Based Communication System{" "}
-                <span className="arrow">→</span>
-              </div>
-              <div className="project-stack">
-                Python · OpenCV · Eye Aspect Ratio Detection
-              </div>
-            </div>
-            <div className="project-desc">
-              An assistive communication tool for individuals with paralysis,
-              using webcam-based eye blink detection to interpret intentional
-              blink patterns and convert them into pre-defined messages —
-              giving users a low-cost way to communicate without physical
-              movement.
             </div>
           </div>
         </div>
       </section>
 
-      {/* ACHIEVEMENTS */}
+      {/* ACHIEVEMENTS / RECOGNITION */}
       <section className="achievements" id="achievements">
         <div className="section-head reveal">
           <div className="section-num">05 / RECOGNITION</div>
           <div className="section-title">
-            Noticed by people who see a lot of projects.
+            Patents, Published Research &amp; Awards
           </div>
         </div>
         <div className="ach-list reveal">
           <div className="ach-item">
             <div className="ach-icon">[01]</div>
             <p>
-              <strong>Best Idea Award</strong> — Inter-College Level round,
-              Smart India Hackathon 2025.
+              <strong>Published Indian Patent Application (Co-Inventor)</strong> —{" "}
+              <em>"An Adaptive Multimodal Communication and Classroom Participation System for Students with Disabilities"</em>{" "}
+              (App No: <strong>202641107831 A</strong>, Published: Sept 18, 2026).
             </p>
           </div>
           <div className="ach-item">
             <div className="ach-icon">[02]</div>
             <p>
-              Published research paper,{" "}
+              Published international research paper,{" "}
               <strong>
                 &quot;Customized Eye Blink Based Communication System for
                 Paralysed Person,&quot;
               </strong>{" "}
-              at the 7th International Conference (CAIT 2026).
+              at the 7th International Conference on Computer Applications and Information Technology (CAIT 2026) (HICAS).
+            </p>
+          </div>
+          <div className="ach-item">
+            <div className="ach-icon">[03]</div>
+            <p>
+              <strong>Best Idea Award</strong> — SIH Internal Hackathon 2025.
             </p>
           </div>
         </div>
